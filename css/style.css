@@ -8,29 +8,32 @@ body {
 
 /* Header */
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 10px;
+  padding: 2px;
   background-color: #612a3b;
   color: white;
+}
+
+.navbar {
+  background-color: firebrick;
   text-align: center;
-  height: 70px;
+  background-color: #612a3b;
+  position: end;
+  z-index: 1000;
 }
 
-header div {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
+tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
 }
 
-header nav {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  text-align: end;
-  align-self: center;
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255 255 255);
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 a {
@@ -73,7 +76,6 @@ footer {
   align-items: center;
   color: rgb(242, 236, 236);
   background-color: #612a3b;
-
 }
 
 .newsletter {
@@ -99,10 +101,6 @@ footer {
 
 .container {
   display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 100px;
-  width: 400px;
-  height: 200px;
   justify-content: center;
   align-self: center;
   padding: 10px;
@@ -110,8 +108,7 @@ footer {
   border-radius: 8.5px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.489);
   align-content: space-evenly;
-  align-items: center;
-
+  align-items: stretch;
 }
 
 .sectionAlign {
@@ -123,8 +120,8 @@ footer {
 
 .container2 {
   display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 100px;
+  grid-template-columns: 309px;
+  grid-template-rows: 53px;
   width: 400px;
   height: 550px;
   padding: 5px;
@@ -180,7 +177,7 @@ aside.container3 {
 }
 
 .aNegro {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding: 2px;
   border-radius: 10px;
   text-decoration: none;
@@ -191,7 +188,6 @@ aside.container3 {
   border: black 10px;
   padding: 10px;
   border-radius: 5px;
-
 }
 
 .bodyIndex {
@@ -219,15 +215,9 @@ aside.container3 {
   align-items: center;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .headerGrid {
   grid-area: header;
-  display: flex;
-  flex-wrap: wrap;
+  height: 80px;
 }
 
 .sectionGrid {
@@ -295,8 +285,6 @@ nav {
   }
 }
 
-
-
 /* MOBILE */
 
 @media screen and (max-width: 678px) {
@@ -306,7 +294,7 @@ nav {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
+    font-family: "Comfortaa", cursive;
     font-size: 12px;
   }
 
@@ -315,27 +303,6 @@ nav {
     flex-wrap: wrap;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 .color1 {
