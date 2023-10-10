@@ -1,0 +1,53 @@
+/* TABLET */
+@media screen and (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 196);
+  }
+
+  .bodyIndex {
+    display: grid;
+    grid-template-areas:
+      "header    header"
+      "section   section"
+      "article1  article2"
+      "article3  article4"
+      "aside     aside"
+      "footer    footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 30%;
+    justify-items: stretch;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 678px) {
+    .bodyIndex {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Comfortaa", cursive;
+      font-size: 12px;
+    }
+  
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+  }
