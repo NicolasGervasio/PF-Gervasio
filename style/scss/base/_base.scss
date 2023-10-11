@@ -1,25 +1,28 @@
- //reset de estilos
- body {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     background-color: rgb(192, 192, 104);
- }
+@import "../utils/variables";
 
- a {
-     color: white;
-     margin: 8px;
-     text-decoration: none;
+//reset de estilos
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(192, 192, 104);
+}
 
-     a:active {
-         background-color: red;
-     }
+a {
+    color: white;
+    margin: 8px;
+    text-decoration: none;
 
-     a:visited {
-         background-color: rgba(159, 49, 6, 0.802);
-     }
- }
- .aNegro {
+    a:active {
+        background-color: red;
+    }
+
+    a:visited {
+        background-color: rgba(159, 49, 6, 0.802);
+    }
+}
+
+.aNegro {
     background-color: rgb(0, 0, 0);
     padding: 2px;
     border-radius: 10px;

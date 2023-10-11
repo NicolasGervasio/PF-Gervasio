@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 /* TABLET */
 @media screen and (max-width: 1024px) {
   body {
@@ -25,29 +27,18 @@
     margin: 0;
     box-sizing: border-box;
   }
-
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 /* MOBILE */
 
 @media screen and (max-width: 678px) {
-    .bodyIndex {
-      display: flex;
-      flex-direction: column;
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      font-family: "Comfortaa", cursive;
-      font-size: 12px;
-    }
-  
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      
-    }
+  .bodyIndex {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+    font-size: 12px;
   }
+}

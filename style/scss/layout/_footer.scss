@@ -1,10 +1,12 @@
+@import "../utils/variables";
+
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(242, 236, 236);
-  background-color: #612a3b;
+  background-color: $colorSecundario;
 
   .newsletter {
     text-decoration: white;

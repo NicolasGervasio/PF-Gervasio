@@ -1,8 +1,9 @@
+@import "../utils/variables";
 
 .navbar {
-  background-color: firebrick;
+  background-color: $colorPrimario;
   text-align: center;
-  background-color: #612a3b;
+  background-color: $colorSecundario;
   position: end;
   z-index: 1000;
 }

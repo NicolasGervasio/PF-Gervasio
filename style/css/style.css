@@ -46,9 +46,9 @@ aside.container3 {
   text-align: center;
   padding: 10px;
   margin: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.275);
+  border: 1px solid black;
   border-radius: 10px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.183);
+  box-shadow: 4px 4px 10px black;
 }
 
 .decorationBtn {
@@ -161,10 +161,6 @@ main {
     margin: 0;
     box-sizing: border-box;
   }
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 /* MOBILE */
 @media screen and (max-width: 678px) {
@@ -177,10 +173,6 @@ main {
     font-family: "Comfortaa", cursive;
     font-size: 12px;
   }
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 .centerContacto {
   align-items: center;
@@ -192,7 +184,7 @@ main {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  border: 10px #000000;
+  border: 10px black;
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -212,12 +204,12 @@ main {
   padding: 10px;
   margin: 20px;
   border-radius: 8.5px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.489);
+  box-shadow: 4px 4px 10px black;
   align-content: space-evenly;
   align-items: stretch;
 }
 
-.sectionAlign {
+.sectionAlign, .divServicio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -233,18 +225,14 @@ main {
   padding: 5px;
   margin: 20px;
   border-radius: 8.5px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.489);
+  box-shadow: 4px 4px 10px black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-items: center;
   justify-content: center;
 }
 
 .divServicio {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 /*
