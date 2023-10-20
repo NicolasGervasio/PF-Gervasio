@@ -1,0 +1,13 @@
+@import "../utils/variables";
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8.5px;
+    box-shadow: 4px 4px 10px $colorBlack;
+    align-content: space-evenly;
+    align-items: stretch;
+}

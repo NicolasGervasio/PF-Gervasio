@@ -1,0 +1,29 @@
+@import "../utils/variables";
+
+//reset de estilos
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: $colorWhite;
+    margin: 8px;
+    text-decoration: none;
+
+    a:active {
+        background-color: $colorTerceario;
+    }
+
+    a:visited {
+        background-color: $colorVisited;
+    }
+}
+
+.aNegro {
+    background-color: $colorBlack;
+    padding: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+}

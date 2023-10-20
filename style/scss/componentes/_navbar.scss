@@ -1,0 +1,21 @@
+@import "../utils/variables";
+
+.navbar {
+  background-color: $colorPrimario;
+  text-align: center;
+  background-color: $colorSecundario;
+  position: end;
+  z-index: 1000;
+
+  h1 {
+    a {
+      color: $colorWhite;
+    }
+  }
+
+  .nav-item {
+    a {
+      color: $colorWhite;
+    }
+  }
+}

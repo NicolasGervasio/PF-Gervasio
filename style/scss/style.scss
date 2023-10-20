@@ -1,0 +1,23 @@
+// Base
+@import "./base/base";
+
+//Componentes
+@import "./componentes/navbar";
+
+//Layout
+@import "./layout/aside";
+@import "./layout/footer";
+@import "./layout/grid";
+@import "./layout/header";
+
+// Mobile
+@import "./mobile/mobile";
+
+// Pages
+@import "./pages/contacto";
+@import "./pages/fichaprecios";
+@import "./pages/index";
+@import "./pages/servicios";
+
+// Utils
+@import "./utils/variables";

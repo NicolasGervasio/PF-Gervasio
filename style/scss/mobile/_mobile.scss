@@ -1,0 +1,71 @@
+@import "../utils/variables";
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+  .bodyIndex {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+    font-size: 12px;
+  }
+
+  .h3Info {
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .pInfo {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  label {
+    margin: 10px;
+    justify-content: center;
+  }
+
+  input {
+    margin: 10px;
+  }
+
+  textarea {
+    margin: 10px;
+  }
+
+  legend {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  button {
+    display: flex;
+
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 678px) {
+  .bodyIndex {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+    font-size: 12px;
+  }
+
+  .h3Info {
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .pInfo {
+    margin: 20px;
+    font-size: 16px;
+  }
+}
