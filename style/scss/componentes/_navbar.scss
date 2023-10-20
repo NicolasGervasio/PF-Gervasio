@@ -6,4 +6,16 @@
   background-color: $colorSecundario;
   position: end;
   z-index: 1000;
+
+  h1 {
+    a {
+      color: white;
+    }
+  }
+
+  .nav-item {
+    a {
+      color: white;
+    }
+  }
 }
