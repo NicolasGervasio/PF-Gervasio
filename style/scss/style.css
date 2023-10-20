@@ -80,7 +80,8 @@ footer {
   background-color: #612a3b;
 }
 footer .newsletter {
-  text-decoration: white;
+  -webkit-text-decoration: white;
+          text-decoration: white;
   background-color: antiquewhite;
 }
 
@@ -259,6 +260,4 @@ main {
   .color5 {
     color: #ffb2a4;
   }
-  */
-
-/*# sourceMappingURL=style.css.map */
+  *//*# sourceMappingURL=style.css.map */
