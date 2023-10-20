@@ -49,40 +49,30 @@
       <section>
         <h2>¡Contacta con nosotros!</h2>
         <form action="">
-          <div>
+          <div class="divCorrector">
             <legend>Datos de contacto</legend>
             <label for="nombre">Ingrese su nombre:</label>
             <input required id="nombre" type="text" />
-            <br>
             <label for="apellido">Ingrese su apellido:</label>
             <input required id="apellido" type="text" />
-            <br>
             <label for="email">Ingrese su e-mail:</label>
             <input required id="email" type="email" />
-            <br>
           </div>
-            <legend>Tipos de servicios</legend>
-            <label for="consulta">Escribe tu consulta:</label>
-            <br>
-            <textarea
-              required
-              name=""
-              id="consulta"
-              cols="30"
-              rows="5"
-            ></textarea>
-            <br>
-            <label for="taller">Seleccione una opción:</label>
-            <select required name="" id="taller">
-              <option value="">Servicio completo</option>
-              <option value="">Alineación</option>
-              <option value="">Cambio de liquidos</option>
-              <option value="">Taller</option>
-              <option value="">Limpieza</option>
-              <option value="">Otros</option>
-            </select>
-          </fieldset>
-          <input type="submit" value="Enviar" />
+          <div class="divCorrector">
+          <legend>Tipos de servicios</legend>
+          <label for="consulta">Escribe tu consulta:</label>
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+          <label for="taller">Seleccione una opción:</label>
+          <select required name="" id="taller">
+        <option value="">Servicio completo</option>
+    <option value="">Alineación</option>
+    <option value="">Cambio de liquidos</option>
+    <option value="">Taller</option>
+    <option value="">Limpieza</option>
+    <option value="">Otros</option>
+  </select>
+  <button type="button" class="btn btn-danger">Enviar</button>
+     </div>
         </form>
       </section>
     </main>
