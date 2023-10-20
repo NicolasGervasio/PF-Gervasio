@@ -8,24 +8,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(238, 238, 196);
   }
 
-  .bodyIndex {
-    display: grid;
-    grid-template-areas:
-      "header    header"
-      "section   section"
-      "article1  article2"
-      "article3  article4"
-      "aside     aside"
-      "footer    footer";
-    grid-template-columns: 100%;
-    grid-template-rows: 30%;
-    justify-items: stretch;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  .pInfo {
+    margin: 20px;
+    font-size: 16px;
   }
 }
 
@@ -40,5 +27,15 @@
     box-sizing: border-box;
     font-family: "Comfortaa", cursive;
     font-size: 12px;
+  }
+
+  .h3Info {
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .pInfo {
+    margin: 20px;
+    font-size: 16px;
   }
 }

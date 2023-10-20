@@ -8,21 +8,21 @@ body {
 }
 
 a {
-    color: white;
+    color: $colorWhite;
     margin: 8px;
     text-decoration: none;
 
     a:active {
-        background-color: red;
+        background-color: $colorTerceario;
     }
 
     a:visited {
-        background-color: rgba(159, 49, 6, 0.802);
+        background-color: $colorVisited;
     }
 }
 
 .aNegro {
-    background-color: rgb(0, 0, 0);
+    background-color: $colorBlack;
     padding: 2px;
     border-radius: 10px;
     text-decoration: none;

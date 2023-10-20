@@ -5,11 +5,11 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(242, 236, 236);
+  color: $colorWhite;
   background-color: $colorSecundario;
 
   .newsletter {
-    text-decoration: white;
+    text-decoration: $colorWhite;
     background-color: antiquewhite;
   }
 }

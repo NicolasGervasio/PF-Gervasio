@@ -17,7 +17,7 @@ a a:visited {
 }
 
 .aNegro {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   padding: 2px;
   border-radius: 10px;
   text-decoration: none;
@@ -81,7 +81,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(242, 236, 236);
+  color: white;
   background-color: #612a3b;
 }
 footer .newsletter {
@@ -158,17 +158,10 @@ main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(238, 238, 196);
   }
-  .bodyIndex {
-    display: grid;
-    grid-template-areas: "header    header" "section   section" "article1  article2" "article3  article4" "aside     aside" "footer    footer";
-    grid-template-columns: 100%;
-    grid-template-rows: 30%;
-    justify-items: stretch;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  .pInfo {
+    margin: 20px;
+    font-size: 16px;
   }
 }
 /* MOBILE */
@@ -181,6 +174,14 @@ main {
     box-sizing: border-box;
     font-family: "Comfortaa", cursive;
     font-size: 12px;
+  }
+  .h3Info {
+    margin: 20px;
+    font-size: 24px;
+  }
+  .pInfo {
+    margin: 20px;
+    font-size: 16px;
   }
 }
 .centerContacto {
